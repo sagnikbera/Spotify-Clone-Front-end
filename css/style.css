@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* background-color: black;
+    color: white; */
+}
+
+.item-center{
+    align-items: center;
+}
+
+.left{
+    width: 25vw;
+    padding: 10px;
+}
+
+.right{
+    width: 75vw;
+}
+
+.home{
+    padding: 10px;
+}
+
+.home ul li{
+    display: flex;
+    list-style: none;
+    width: 15px;
+    gap: 5px;
+    padding-top: 14px;
+}

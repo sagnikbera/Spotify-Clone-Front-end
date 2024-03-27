@@ -5,10 +5,10 @@
     padding: 0;
 }
 
-/* body{
+body{
     background-color: black;
     color: white;
-} */
+}
 
 .item-center{
     align-items: center;
@@ -31,3 +31,59 @@
     padding-top: 14px;
 }
 
+.heading{
+    display: flex;
+    gap: 15px;
+    width: 100%;
+    align-items: center;
+    font-size: 11px;
+    font-weight: bold;
+    padding-top: 14px;
+    padding: 20px 14px;
+}
+
+.heading img{
+    width: 20px;
+}
+
+.library{
+    min-height: 80vh;
+    position: relative;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    gap: 13px;
+    position: absolute;
+    bottom: 0px;
+}
+
+.footer a{
+    color: rgb(149, 146, 146);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(34, 34, 34);
+}
+
+.right{
+    margin: 16px 0;
+    position: relative;
+}
+
+.header > *{
+    padding: 20px;
+}
+
+
+.spotifyPlaylist{
+    padding: 16px;
+}
+
+.spotifyPlaylists h1 {
+    padding: 16px;
+}
